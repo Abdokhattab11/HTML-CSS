@@ -1,0 +1,230 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+.tools-head {
+  width: 600px;
+  margin: 100px auto;
+  padding: 50px;
+  border: 1px solid #444;
+  text-align: center;
+}
+.prev-head {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 32px;
+  color: #50a16d;
+  font-weight: bold;
+  display: inline-block;
+}
+.prev-head::after {
+  content: "";
+  width: 252px;
+  height: 1px;
+  background-color: #444;
+  display: block;
+  position: absolute;
+}
+.head {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+  color: #2c2c2c;
+  margin-bottom: 32px;
+}
+.head-text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+}
+.get-quote {
+  margin: 100px auto;
+  padding: 50px;
+  width: 500px;
+  border: 1px solid #444;
+  text-align: start;
+}
+.prev-quote {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(184, 36, 36);
+  margin-bottom: 32px;
+}
+
+.head-quote {
+  font-size: 32px;
+  color: #343a40;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  margin-bottom: 32px;
+}
+.quote-text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #495057;
+}
+.launch {
+  text-align: center;
+  border: 1px solid #444;
+  margin: 100px auto;
+  padding: 50px;
+  width: 800px;
+  /* TO ADD IMAGE AS BACK GROUND*/
+  background-image: url("background-black.jpg");
+  background-size: cover;
+}
+.quote-box {
+  width: 500px;
+}
+.prev-launch {
+  color: rgb(17, 141, 209);
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+.lanuch-head {
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  color: #fff;
+  margin-bottom: 48px;
+}
+.launch-text {
+  font-size: 16px;
+  line-height: 1.7;
+
+  color: #c0c0c0;
+}
+.how-do {
+  margin: 100px auto;
+  padding: 50px;
+  border: 1px solid #444;
+  width: 500px;
+  color: #444;
+}
+.how-head {
+  font-size: 32px;
+  letter-spacing: -2px;
+  margin-bottom: 48px;
+}
+.how-head:after {
+  content: "";
+  width: 70px;
+  height: 3px;
+  display: block;
+  background-color: #50a16d;
+  position: relative;
+  bottom: -10px;
+}
+.how-sec-head {
+  font-size: 24px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+.how-text {
+  line-height: 1.7;
+  font-size: 16px;
+}
+.build {
+  font-family: serif;
+  margin: 100px auto;
+  padding: 50px;
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 500px;
+  border: 1px solid #444;
+  color: #444;
+}
+.build-above {
+  letter-spacing: 2px;
+  font-size: 24px;
+  margin-bottom: 64px;
+  font-weight: 500;
+}
+.ques-build {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  margin-bottom: 8px;
+  color: #747474;
+}
+.main-head-bulid {
+  margin-top: 16px;
+  font-size: 52px;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+.info-build {
+  color: #747474;
+}
+/* span {
+  position: relative;
+}
+
+span::before {
+  background-color: #a7fbf4;
+
+  content: "";
+  position: absolute;
+  width: calc(100% + 4px);
+  height: 60%;
+  left: -2px;
+  bottom: 0;
+  z-index: -1;
+  transform: rotate(-0deg);
+} */
+.hightlight {
+  position: relative;
+}
+.hightlight::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1; /* To make it back*/
+  width: 100%;
+  height: 50%;
+  background-color: #a7fbf4c4;
+  transform: rotate(-2deg);
+}
+.more-div {
+  transform: rotate(-5deg);
+
+  margin: 100px auto;
+  width: 500px;
+  padding: 24px;
+  background-image: url("background-blue.jpg");
+  background-size: cover;
+  color: #e9ecef;
+}
+.more-head {
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: -0.5px;
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+.more-head-main {
+  margin-top: 0;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  font-size: 62px;
+  font-weight: 900;
+  letter-spacing: -3px;
+  line-height: 1;
+}
+.question-more {
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.more-text {
+  font-size: 16px;
+  color: #f8f9fa;
+  line-height: 1.6;
+}

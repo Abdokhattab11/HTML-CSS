@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #fff;
+}
+/*
+Main color : #e67e22
+Gray1 color : #262a2a
+Gray2 color : #d9dddd
+background color : #fff
+*/
+
+/* layout styling */
+.contanier {
+  width: 1200px;
+  margin: 100px auto;
+}
+.top-button {
+  display: flex;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #f7f7f7;
+  border: 1px solid #d2d2d2;
+  border-right: none;
+  border-bottom: none;
+  cursor: pointer;
+}
+.book-details {
+  border: 1px solid #d2d2d2;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  row-gap: 24px;
+  padding: 16px 16px;
+}
+.details-head {
+  grid-row: 1/2;
+  display: flex;
+  justify-content: space-between;
+}
+.details-body {
+  grid-row: 2/3;
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  column-gap: 32px;
+}
+.details-action {
+  justify-self: end;
+  text-align: end;
+}
+.features {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+.flex-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-end;
+  margin-bottom: 32px;
+}
+/* elements*/
+.book-type {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.book-price {
+  font-size: 16px;
+  font-weight: 400;
+}
+.active-btn {
+  background-color: #fff;
+  border-bottom: none;
+  border-collapse: collapse;
+
+  border-top: 5px solid #e67e22;
+}
+.active-btn .book-type {
+  font-size: 28px;
+  font-weight: 600;
+  color: #e67e22;
+}
+.active-btn .book-price {
+  font-size: 20px;
+  color: #e67e22;
+  font-weight: 500;
+}
+
+.top-head {
+  font-weight: 500;
+  font-size: 20px;
+}
+.book-price-details {
+  font-weight: 500;
+  font-size: 20px;
+  color: #e67e22;
+}
+.ebook-header {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.feature-item {
+  font-size: 16px;
+  font-weight: 400;
+}
+.featuer-item-text {
+  margin-right: 8px;
+}
+.anker-feature {
+  margin-right: 8px;
+}
+.anker,
+.anker:link,
+.anker:visited {
+  font-size: 16px;
+  text-decoration: none;
+  color: #2980b9;
+}
+.anker:hover,
+.anker:active {
+  font-weight: 400;
+  color: #2471a4;
+}
+.arr-down-icon {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+.text-buy {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.text-anker {
+  display: inline-block;
+  margin-left: 8px;
+  font-weight: 400;
+}
+.action-head {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.last-price {
+  color: #535353;
+}
+.dashed {
+  text-decoration: line-through;
+}
+.space {
+  margin-right: 8px;
+}
+.action-text {
+  margin-bottom: 16px;
+}
+.buy-btn {
+  width: 300px;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 2px;
+  color: #444;
+  background-image: linear-gradient(#f6ab6a, #e67e22);
+  cursor: pointer;
+}
+.send-btn {
+  width: 300px;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 2px;
+  color: #444;
+  background-image: linear-gradient(#ececec, #e5e5e5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid #d2d2d2;
+  cursor: pointer;
+}

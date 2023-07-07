@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+.page-container {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 5% 95%;
+  grid-template-rows: 100vh;
+  height: 100vh;
+}
+.nav-bar {
+  background-color: #1e293b;
+}
+.use {
+  display: grid;
+  grid-template-columns: 25% 57% 18%;
+  grid-template-rows: 10% 90%;
+}
+.menu {
+  grid-row: 1/2;
+  grid-column: 1/-1;
+  background-color: #6641d5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.emails {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  background-color: #e2e8f0;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.email-view {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background-color: #f8fafc;
+}
+.add-info {
+  grid-row: 2/3;
+  grid-column: 3/4;
+  background-color: #e2e8f0;
+}
+.menu-actions {
+  padding-left: 48px;
+  display: flex;
+  gap: 24px;
+}
+.trash {
+  padding-right: 48px;
+}
+/* ELEMENTS */
+.nav-bar-text {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 32px;
+}
+.btn-menu {
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px 20px;
+  background-color: #4423a6;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-trash {
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px 20px;
+  background-color: #e11d48;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-email {
+  border: none;
+  font-size: 32px;
+  width: 75%;
+  font-weight: 500;
+  background-color: #b5bac0;
+  margin: 24px 0;
+  padding: 24px 32px;
+}
+.email-view p,
+.add-info p {
+  display: flex;
+  margin-top: 24px;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 500;
+}

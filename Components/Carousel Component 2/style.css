@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+.container {
+  margin: 100px auto;
+  width: 800px;
+  height: 500px;
+  position: relative;
+  background-size: cover;
+  background-image: url("campaign-creators-gMsnXqILjp4-unsplash.jpg");
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  position: absolute;
+}
+.left-btn {
+  top: 50%;
+  left: 0;
+  transform: translate(-25%, -50%);
+}
+.right-btn {
+  top: 50%;
+  right: 0;
+  transform: translate(+25%, -50%);
+}
+.ionicon {
+  stroke: #fff;
+  cursor: pointer;
+}
+.points {
+  /* box-shadow: 0 0 32px rgba(0, 0, 0, 0.2); */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 48px);
+  display: flex;
+  gap: 4px;
+  color: #c3c3c3;
+  font-size: 32px;
+}
+span {
+  text-shadow: 0 0px 5px rgb(0, 0, 0, 0.1);
+}
+span:hover {
+  cursor: pointer;
+}
+.active {
+  color: black;
+}

@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+}
+/*
+Main color : #087f5b
+Gray color1 : #e6fcf5
+Gray color2 : #c3fae8
+background-color : #fff;
+*/
+.carousel {
+  width: 800px;
+  margin: 100px auto;
+  background-color: #087f5b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 86px;
+  border-radius: 10px;
+  padding: 24px;
+  padding-left: 86px;
+  position: relative;
+}
+.testimonials {
+  position: relative;
+}
+.testimonials::before {
+  position: absolute;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  content: "\201C";
+  font-size: 64px;
+  color: #04402e;
+  top: -28px;
+  left: -28px;
+}
+.testimonials-img {
+  height: 220px;
+  width: auto;
+  transform: scale(1.5);
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+.testimonials-text {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #e6fcf5;
+  margin-bottom: 24px;
+}
+.testimonials-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #c3fae8;
+  margin-bottom: 4px;
+}
+.testimonials-jop {
+  font-size: 16px;
+  color: #c3fae8;
+}
+.btn {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.btn--left {
+  padding-right: 6px;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+.btn--right {
+  padding-left: 6px;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+.arr-icon {
+  stroke: #04402e;
+  font-weight: 600;
+}
+.nav-testimonials {
+  position: absolute;
+  left: 50%;
+  bottom: -36px;
+  transform: translate(-50%, 0);
+  display: flex;
+  gap: 12px;
+}
+.point {
+  border: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  border: 1px solid #087f5b;
+  background-color: #fff;
+}
+.active-point {
+  background-color: #087f5b;
+}
+.point:hover {
+  cursor: pointer;
+}
