@@ -387,10 +387,11 @@ strong {
 }
 .pricing {
   column-gap: 9.8rem !important;
+  row-gap: 4.8rem !important;
 }
 .price-plan {
   justify-self: start;
-  width: 75%;
+  width: 80%;
   padding: 4.8rem;
   border-radius: 16px;
   background-color: #fdf2e9;
@@ -456,4 +457,130 @@ strong {
   color: #333;
   background-color: rgb(255, 204, 0);
   transform: rotate(45deg);
+}
+.price-plan-info {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+.price-plan-info-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #777;
+}
+/***********************************/
+/*features*/
+/***********************************/
+
+.feature-icon {
+  color: #e67e22;
+  width: 3.2rem;
+  height: 3.2rem;
+  padding: 1.6rem;
+  background-color: #fdf2e9;
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+}
+.feature-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+  color: #555;
+}
+.feature-text {
+  font-size: 1.6rem;
+  color: #666;
+  line-height: 1.8;
+}
+
+/***********************************/
+/* section cta*/
+/***********************************/
+.section-cta {
+  padding: 9.6rem 0;
+}
+.cta-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-image: linear-gradient(45deg, #e98b38, #eb984e);
+  border-radius: 16px;
+  overflow: hidden;
+}
+.cta-img-box {
+  background-image: linear-gradient(
+      -45deg,
+      rgba(240, 177, 122, 0.25),
+      rgba(235, 151, 78, 0.25)
+    ),
+    url("../img/eating.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.cta-text-box {
+  padding: 4.8rem 6.4rem;
+}
+.cta-head {
+  color: #45260a;
+  font-size: 4.8rem;
+  margin-bottom: 3.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.cta-text {
+  color: #45260a;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4.8rem;
+  row-gap: 2.4rem;
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 0.8rem;
+}
+.form-box label {
+  font-size: 1.8rem;
+  color: #5c320e;
+  font-weight: 500;
+}
+.form-box input,
+.form-box select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  background-color: #fdf2e9;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: none;
+  color: #333;
+}
+.form-box input::placeholder {
+  color: #777;
+}
+.sign-up {
+  font-size: 2rem;
+  font-weight: 700;
+  background-color: #45260a;
+  color: #eee;
+  align-self: end;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 1.1rem 3.2rem;
+  transition: all 0.3s;
+}
+.sign-up:hover {
+  background-color: #fdf2e9;
+  color: #45260a;
+}
+.cta-container *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.6rem #fdf2e968;
 }
