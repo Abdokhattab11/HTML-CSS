@@ -25,7 +25,7 @@ body {
 }
 .container {
   padding: 2.4rem 4.8rem;
-  width: 130rem;
+  width: 120rem;
   margin: 0 auto;
 }
 .grid {
@@ -34,7 +34,11 @@ body {
 .grid--3--col {
   grid-template-columns: repeat(3, 1fr);
 }
-
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Team */
 .price-card {
   padding: 2.4rem 4.8rem;
@@ -126,8 +130,8 @@ body {
   font-weight: 700;
   color: #f8f0fc;
   background-color: #9c36b5;
-  width: calc(100% + 1px);
-  height: 20px;
+  width: calc(100%);
+  padding: 0.4rem;
 }
 .bussniss-head-price {
   color: #9c36b5;
@@ -137,4 +141,7 @@ body {
 }
 .price-enterprice {
   border-top: 10px solid #e8590c;
+}
+.list-price-item {
+  font-size: 1.2rem;
 }
