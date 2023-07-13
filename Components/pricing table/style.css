@@ -1,0 +1,140 @@
+/*
+Team : #1971c2
+Bussiner : #9c36b5
+Eneterprice : #e8590c
+
+
+strong connection : 1.8rem
+normal : 4.8rem
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #333;
+  font-family: "Inter", sans-serif;
+}
+.pricing {
+  padding: 9.6rem 0;
+}
+.container {
+  padding: 2.4rem 4.8rem;
+  width: 130rem;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+}
+.grid--3--col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Team */
+.price-card {
+  padding: 2.4rem 4.8rem;
+  box-shadow: 0 10px 20px #eee;
+}
+.head-price {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.8rem;
+}
+.sub-head-price {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  color: #444;
+  margin-bottom: 4.8rem;
+}
+.price {
+  justify-content: center;
+  gap: 0.8rem;
+  display: flex;
+  font-size: 6.4rem;
+  font-weight: 800;
+  margin-bottom: 1.8rem;
+}
+.dollar-sign {
+  font-size: 3.2rem;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4.8rem;
+}
+.btn-get-start {
+  padding: 1.2rem 2.4rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  background-color: #1864ab;
+  color: #e7f5ff;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s;
+}
+.btn-get-start:hover {
+  background-color: #e7f5ff;
+  color: #1864ab;
+  border: 2px solid #1864ab;
+}
+.price-per-month {
+  font-size: 1.2rem;
+  color: #555;
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+.list-head {
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.list-price {
+  padding-left: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.team-head-price {
+  color: #1971c2;
+}
+.price-team {
+  border-top: 10px solid #1971c2;
+}
+.price-business {
+  position: relative;
+  border-top: 0 solid #9c36b5;
+  box-shadow: 0 20px 50px #dee2e6;
+}
+.best-seller {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #f8f0fc;
+  background-color: #9c36b5;
+  width: calc(100% + 1px);
+  height: 20px;
+}
+.bussniss-head-price {
+  color: #9c36b5;
+}
+.enterprice-head-price {
+  color: #e8590c;
+}
+.price-enterprice {
+  border-top: 10px solid #e8590c;
+}

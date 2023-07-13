@@ -121,4 +121,9 @@ html {
   width: 3rem;
   height: 3rem;
 }
+.center-element-container {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
 /***********************************/
