@@ -7,33 +7,44 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <!-- For error in consle-->
+    <link rel="shortcut icon" href="#" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/reusable.css" />
     <link rel="stylesheet" href="css/query.css" />
+    <script defer src="js/script.js"></script>
+    <!-- For smooth scrolling-->
+    <script
+      defer
+      scr="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Omnifood</title>
   </head>
   <body>
     <!-- nav-mobile-active -->
-    <header class="header-page section">
-      <img src="img/omnifood-logo.png" alt="omnifood-logo" class="logo" />
+    <!-- sticky -->
+    <header class="header-page section" id="header">
+      <a href="#">
+        <img src="img/omnifood-logo.png" alt="omnifood-logo" class="logo" />
+      </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li>
-            <a href="#" class="a-main-nav">How it works</a>
+            <a href="#how-section" class="a-main-nav">How it works</a>
           </li>
           <li>
-            <a href="#" class="a-main-nav">Meals</a>
+            <a href="#meals" class="a-main-nav">Meals</a>
           </li>
           <li>
-            <a href="#" class="a-main-nav">Testimonial</a>
+            <a href="#testimonial" class="a-main-nav">Testimonial</a>
           </li>
           <li>
-            <a href="#" class="a-main-nav">Pricing</a>
+            <a href="#Pricing" class="a-main-nav">Pricing</a>
           </li>
           <li>
-            <a href="#" class="a-main-nav nav-action">
+            <a href="#cta" class="a-main-nav nav-action">
               <ion-icon name="pricetag-outline" class="btn-nav-icon"></ion-icon>
               <p>Try for free</p>
             </a>
@@ -59,8 +70,10 @@
             </p>
             <!-- Ankers used to navigate the web site , buttuns used for actions -->
             <div class="btn-container">
-              <a href="#" class="btn btn-hero-action">Start eating well</a>
-              <a href="#" class="btn btn-hero-learn">Learn more &darr;</a>
+              <a href="#cta" class="btn btn-hero-action">Start eating well</a>
+              <a href="#how-section" class="btn btn-hero-learn"
+                >Learn more &darr;</a
+              >
             </div>
             <div class="deliverd-meals">
               <p class="p-deliverd-meals">
@@ -127,7 +140,7 @@
           </div>
         </div>
       </section>
-      <section class="section-how section">
+      <section class="section-how section" id="how-section">
         <div class="container how-container">
           <div class="how-header">
             <p class="subhead-section">How it work</p>
@@ -181,7 +194,7 @@
           </div>
         </div>
       </section>
-      <section class="section-meals section">
+      <section class="section-meals section" id="meals">
         <div class="container">
           <div class="meals-head">
             <p class="subhead-section">Meals</p>
@@ -329,7 +342,7 @@
           </div>
         </div>
       </section>
-      <section class="section-testimonials-gallery">
+      <section class="section-testimonials-gallery" id="testimonial">
         <div class="testimonials">
           <div class="testimonial-header">
             <p class="subhead-section">testimonials</p>
@@ -411,7 +424,7 @@
           </figure>
         </div>
       </section>
-      <section class="section-pricing-features section">
+      <section class="section-pricing-features section" id="Pricing">
         <div class="container">
           <div class="pricing-header pricing-subhead">
             <p class="subhead-section">pricing</p>
@@ -553,7 +566,7 @@
           </div>
         </div>
       </section>
-      <section class="section-cta section">
+      <section class="section-cta section" id="cta">
         <div class="container cta-container">
           <div class="cta-text-box">
             <h2 class="cta-head">Get your first meal for free!</h2>
@@ -606,7 +619,7 @@
     <footer class="footer section">
       <div class="container footer-grid">
         <div class="logo-col">
-          <a href="#" class="footer-logo">
+          <a href="#">
             <img src="img/omnifood-logo.png" alt="omnifood-logo" class="logo" />
           </a>
           <ul class="logo-list">
@@ -621,7 +634,8 @@
             </li>
           </ul>
           <p class="copyrights">
-            All copyrights&copy; 2032 <br />Abdo Khattab<br />
+            All copyrights&copy; <span class="year">2023</span> <br />Abdo
+            Khattab<br />
             Jonas Schmedtmann
           </p>
         </div>
