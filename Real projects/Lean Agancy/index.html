@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/queries.css" />
+    <script defer src="js/script.js"></script>
+    <script
+      defer
+      scr="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leon Agancy</title>
@@ -21,7 +26,7 @@
           <img src="img/images/logo.webp" />
         </a>
         <nav class="main-nav">
-          <svg
+          <!-- <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -34,7 +39,21 @@
               stroke-linejoin="round"
               d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
             />
-          </svg>
+          </svg> -->
+          <ul class="list">
+            <li class="list-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="list-item">
+              <a href="#protfolio" class="nav-link">Protfolio</a>
+            </li>
+            <li class="list-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="list-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
@@ -83,7 +102,7 @@
           </div>
         </div>
       </section>
-      <section class="section-services main-section-padding">
+      <section class="section-services main-section-padding" id="services">
         <div class="container">
           <p class="service-head center-div">Don't be busy, be productive</p>
           <div class="services-grid">
@@ -138,7 +157,7 @@
           </div>
         </div>
       </section>
-      <section class="section-profile main-section-padding">
+      <section class="section-profile main-section-padding" id="protfolio">
         <p class="profile-head center-div">
           If you do it right, it will last forever.
         </p>
@@ -178,7 +197,7 @@
           </div>
         </div>
       </section>
-      <section class="section-about main-section-padding">
+      <section class="section-about main-section-padding" id="about">
         <div class="container">
           <p class="about-head center-div">Less is more work</p>
           <div class="about-grid">
@@ -203,7 +222,7 @@
           </div>
         </div>
       </section>
-      <section class="section-contact main-section-padding">
+      <section class="section-contact main-section-padding" id="contact">
         <div class="container">
           <p class="contact-head center-div">We are born to create</p>
           <div class="contact-text">
@@ -222,6 +241,11 @@
           </div>
         </div>
       </section>
+      <footer class="footer">
+        <p class="center-div footer-conatiner">
+          &copy; 2019 &dash;&nbsp;<span>Leon</span>, All rights Reserved.
+        </p>
+      </footer>
     </main>
     <script
       type="module"
