@@ -174,7 +174,7 @@
     /* To make it visible */
     pointer-events: auto;
     visibility: visible;
-    transform: translateX(0%);
+    transform: translateX(0);
   }
   .nav-mobile-active .icon-mobile-nav[name="close-outline"] {
     display: block;

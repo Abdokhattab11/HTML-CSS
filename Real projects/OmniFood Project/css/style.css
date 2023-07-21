@@ -76,6 +76,7 @@
 .icon-mobile-nav:hover {
   color: #e98b38;
 }
+/* Sticky Navigation Style */
 .sticky {
   position: fixed !important;
   width: 100%;
